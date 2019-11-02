@@ -123,12 +123,6 @@ Text Domain:  accelerate-theme-child
 
 
 /*Social Nav */
-/*.social-media-navigation ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-evenly;
-}*/
-
 .social-media-menu {
     list-style-type: none;
     text-align: right;
