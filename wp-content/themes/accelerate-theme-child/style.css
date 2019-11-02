@@ -12,6 +12,11 @@ Text Domain:  accelerate-theme-child
 
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    margin-bottom: 0;
+}
+
+#main {
+    margin-bottom: 0;
 }
 
 #masthead {
@@ -36,7 +41,8 @@ Text Domain:  accelerate-theme-child
 }
 
 .blog-post h3 {
-	font-size: 1.5em;
+    font-size: 1.5em;
+    margin-top: 20px;
 }
 
 .read-more-link {
@@ -44,4 +50,101 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
+}
+
+
+/*Case Studies*/
+.case-study-sidebar {
+    float: left;
+    margin-right: 50px;
+    width: 300px;
+}
+
+.case-study-sidebar h2 {
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.case-study-sidebar h4 {
+    color: #878787;
+    font-size: 0.8em;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.case-study-sidebar h4 span {
+    color: #2b2b2b;
+}
+
+.case-study-images {
+    float: left;
+    width: 600px;
+}
+
+.case-study-images img {
+    height: auto;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+#navigation {
+    margin: 0;   
+    width: 100%; 
+}
+
+.featured-work h4{
+    margin: 40px 0 40px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.case-study-photo-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.case-study-photo-title h3 {
+    font-size: 1em;
+    margin: 10px 0 10px 0;
+}
+
+.front-page-case-studies {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Case study archive page */
+#archive-sidebar h2 {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+/*Social Nav */
+/*.social-media-navigation ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}*/
+
+.social-media-menu {
+    list-style-type: none;
+    text-align: right;
+}
+
+.social-media-menu li {
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    display: inline-block;
+    height: 30px;
+    padding-top: 5px;   
+    text-align: center;
+    width: 30px;
+}
+
+.social-media-menu li a {
+    color: white;
 }
