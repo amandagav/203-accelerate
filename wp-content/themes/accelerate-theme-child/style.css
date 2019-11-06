@@ -121,7 +121,6 @@ Text Domain:  accelerate-theme-child
     font-weight: 600;
 }
 
-
 /*Social Nav */
 .social-media-menu {
     list-style-type: none;
@@ -141,4 +140,137 @@ Text Domain:  accelerate-theme-child
 
 .social-media-menu li a {
     color: white;
+}
+
+/*Contact Us */
+.contact-us p,
+.contact-us h2 {
+    margin: 0 auto;
+    width: 600px;
+}*/
+
+.contact-us h2 {
+    font-size: 1.5em;
+}
+
+.contact-us p {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+#nf-form-1-cont {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 600px;
+}
+
+#nf-label-field-1,
+#nf-label-field-2,
+#nf-label-field-3 {
+    font-size: 0.9em;
+    font-weight: 100;
+}
+
+#nf-field-1,
+#nf-field-2,
+#nf-field-3 {
+    background: none;
+}
+#nf-field-4 {
+    background-color: #45ac9d;
+    float: right;
+    width: 200px;
+}
+
+.confirmation-header {
+    color: #45ac9d;
+    font-size: 2.1em;
+    text-align: center;
+}
+
+.confirmation-message p {
+    font-size: 1.2em;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+/* About Page */
+.about-page-hero {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.hero-area {
+    margin: 0 auto;
+}
+
+.hero-area p {
+    color: white;
+    font-size: 1.5em;
+    line-height: 35px;
+    padding-bottom: 50px;
+    text-align: center;
+    width: 40%;
+}
+
+.services-intro {
+    margin-bottom: 50px;
+}
+
+.services-intro h3 {
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.services-intro p {
+    margin: 0;
+    text-align: center;
+}
+
+.service-description h2 {
+    font-size: 1.5em;
+}
+
+.icon {
+    width: 216px;
+}
+
+.service-icon-right {
+    display: flex;
+    padding-top: 40px;
+}
+
+.service-icon-right .service-description {
+    padding-right: 90px;
+}
+
+.service-icon-left {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 40px;
+}
+
+.service-icon-left .service-description {
+    padding-left: 90px;
+}
+
+.about-contact {
+    border-top: 1px rgb(191, 191, 191) solid;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    padding: 50px 0 50px 0;
+}
+
+.about-contact h2 {
+    margin: 0;
+}
+
+.button {
+    height: 50px;
+    width: 240px;
 }
