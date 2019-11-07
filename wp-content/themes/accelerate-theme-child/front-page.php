@@ -57,4 +57,20 @@ get_header(); ?>
  		</div>
 	</section>
 
+	<section class="twitter-feed">
+		<div class="site-content">
+			<div class="tweet">
+				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					</div>
+				<?php endif; ?>
+				<h4 class = "twitter-link">
+					<a href="http://www.twitter.com/skillcrush" target="_BLANK">Follow Us &rsaquo;</a>
+				</h4>
+			</div>
+			
+		</div>
+	</section>
+
 <?php get_footer(); ?>

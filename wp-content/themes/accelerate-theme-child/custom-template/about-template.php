@@ -48,9 +48,11 @@ get_header(); ?>
 						<h2><?php echo $service_1; ?></h2>
 						<p><?php echo $description_1; ?></p>
 					</div>
-					<?php if($icon_1) { 
-						echo wp_get_attachment_image( $icon_1, $size );
-					} ?>
+					<figure>
+						<?php if($icon_1) { 
+							echo wp_get_attachment_image( $icon_1, $size );
+						} ?>
+					</figure>
 				</div>
 
 				<div class="service-icon-right">
@@ -58,9 +60,11 @@ get_header(); ?>
 						<h2><?php echo $service_2; ?></h2>
 						<p><?php echo $description_2; ?></p>
 					</div>
-					<?php if($icon_2) { 
-						echo wp_get_attachment_image( $icon_2, $size );
-					} ?>
+					<figure>
+						<?php if($icon_2) { 
+							echo wp_get_attachment_image( $icon_2, $size );
+						} ?>
+					</figure>
 				</div>
 
 				<div class="service-icon-left">
@@ -68,9 +72,11 @@ get_header(); ?>
 						<h2><?php echo $service_3; ?></h2>
 						<p><?php echo $description_3; ?></p>
 					</div>
-					<?php if($icon_3) { 
-						echo wp_get_attachment_image( $icon_3, $size );
-					} ?>
+					<figure>
+						<?php if($icon_3) { 
+							echo wp_get_attachment_image( $icon_3, $size );
+						} ?>
+					</figure>
 				</div>
 
 				<div class="service-icon-right">
@@ -78,9 +84,11 @@ get_header(); ?>
 						<h2><?php echo $service_4; ?></h2>
 						<p><?php echo $description_4; ?></p>
 					</div>
-					<?php if($icon_4) { 
-						echo wp_get_attachment_image( $icon_4, $size );
-					} ?>
+					<figure>
+						<?php if($icon_4) { 
+							echo wp_get_attachment_image( $icon_4, $size );
+						} ?>
+					</figure>
 				</div>
 			
 			<?php endwhile; ?> 
